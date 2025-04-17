@@ -1,0 +1,11 @@
+codigos que podem me ajudar um dia
+
+simula uma luta entre participantes mas pode ser usado para outro coisa, pegando um participante aleatorio
+
+
+while (participantes.length > 1) {
+      const i1 = Math.floor(Math.random() * participantes.length);
+      let i2;
+      do {
+        i2 = Math.floor(Math.random() * participantes.length);
+      } while (i2 === i1);}}
