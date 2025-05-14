@@ -2,17 +2,34 @@ codigos que podem me ajudar um dia
 
 simula uma luta entre participantes mas pode ser usado para outra coisa, pegando um participante aleatorio
 
-
+ts
 while (participantes.length > 1) {
       const i1 = Math.floor(Math.random() * participantes.length);
       let i2;
       do {
         i2 = Math.floor(Math.random() * participantes.length);
       } while (i2 === i1);}}
+java
+Criando dois objetivos array do tipo String...
+String[] participantes1 = new String[]("vrau1","vrau2");
+String[] participantes2 = new String[2];
 
+Cria uma variavel de numero inteiro com digito 0 atribuido a ele. 
+int i = o;
+Enquanto a seguinte condição for verdadeira, enquanto i+1 for maior que a quantidade de elementos, irá mostrar cada elemento
+boolean condicao = (i+1 < participantes1.length) 
+while(icondicao){
+System.out.println(partipantes[i]);
+i++;
+
+}
+
+while(participantes.length)
 
 Tem 3 elementos na lista chamada opcoes... 
 
 let opcoes = ["tesoura", "pedra","papel"]
 pega um elemento aleatorio da lista criada :)
-computadorEscolha = opcoes[Math.floor(Math.random()*opcoes.length)
+computadorEscolha = opcoes[Math.floor(Math.random()*opcoes.length
+
+
