@@ -9,3 +9,10 @@ while (participantes.length > 1) {
       do {
         i2 = Math.floor(Math.random() * participantes.length);
       } while (i2 === i1);}}
+
+
+Tem 3 elementos na lista chamada opcoes... 
+
+let opcoes = ["tesoura", "pedra","papel"]
+pega um elemento aleatorio da lista criada :)
+computadorEscolha = opcoes[Math.floor(Math.random()*opcoes.length)
